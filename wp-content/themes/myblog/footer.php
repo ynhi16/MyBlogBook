@@ -1,0 +1,46 @@
+<footer>
+    <?php wp_footer() ?>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-4">
+                <div class="block-footer">
+                    <h3>Về tôi</h3>
+                    <p>Tốt nghiệp ĐH Sư Phạm nhưng tôi lại thích lập trình và thiết kê web, vì vậy tôi tạo ra
+                        trang web
+                        này để trao đổi kiến thức về lập trình và thiết kế web</p>
+                    <a href="#" class="readmore">Xem thêm</a>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-4">
+                <div class="block-footer">
+                    <h3>Chuyên mục</h3>
+                    <ul>
+                        <li><a href="#">Lập trình</a></li>
+                        <li><a href="#">Thiết kế web</a></li>
+                        <li><a href="#">Học Wordpress</a></li>
+                        <li><a href="#">Học HTMl & CSS</a></li>
+                        <li><a href="#">Video Hướng dẫn</a></li>
+                        <li><a href="#">Kiến thức khác</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-4">
+                <div class="block-footer">
+                    <h3>Liên hệ</h3>
+                    <p>Điện thoại: 01658949680</p>
+                    <p>Email: huykira@gmail.com</p>
+                    <p>Lên hệ với tôi hay lick vào đây?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v14.0"
+    nonce="usphb3Vu"></script>
+<script src="<?php bloginfo('template_directory') ?>/js/jquery-3.2.1.min.js"></script>
+<script src="<?php bloginfo('template_directory') ?>/libs/bootstrap/js/bootstrap.min.js"></script>
+<script src="<?php bloginfo('template_directory') ?>/js/main.js"></script>
+</body>
+
+</html>
